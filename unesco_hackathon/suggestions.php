@@ -76,13 +76,20 @@ http://www.templatemo.com/tm-502-short
                             require_once "SuggestionDao.php";
                             $dao = new SuggestionDAO();
                             if(count($dao->getSuggestions()) >0){
-                                echo "<ul>";
+                                echo "<table>";
                                 foreach ($dao->getSuggestions() as $item){
-                                    echo "<li>";
+                                    echo "<tr><td>";
                                     echo $item;
-                                    echo "</li>";
+                                    echo "</td><td>";
+                                    echo "<form action = 'deleteSuggestion.php' method = 'GET'>";
+                                    echo "<input type = 'hidden' name = 'delete' value='$item'/>";
+                                    echo "<input type='submit' value = 'Delete'/>";
+                                    
+                                    echo "</td></form>";
+                                    echo "</tr>";
                                 }
-                                echo "</ul>";
+                                echo "</table>";
+
                             }
                             else{
                                 echo "There are no suggestions yet :(";
