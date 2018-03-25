@@ -49,8 +49,8 @@
             foreach ($this->suggestions as $item){
                 $display[] = $item->suggestion;
             }
-            return $display;
-            // return ($this->suggestions);
+            return array_reverse($display);
+            // return array_reverse($this->suggestions);
         }
     }
 ?>
