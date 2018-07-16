@@ -1,0 +1,56 @@
+# Metadata for Monthly Transfers of Vehicles by Type
+---
+Identifier: 'ea5c731c-8bf4-4686-aaf5-70fc5872c1fb'
+Name: 'monthly-transfers-of-vehicle-by-type'
+Title: 'Monthly Transfers of Vehicles by Type'
+Description:
+  - 'All vehicles transferred within the report period.'
+  - ''
+  - 'Also known as Monthly Type and Number of Vehicles Transferred'
+Topics:
+  - 'Transport'
+Keywords:
+  - 'Motor vehicles'
+Publisher:
+  Name: 'Land Transport Authority'
+  Admin 1:
+    Name: 'Land Transport Authority'
+    Department: 'Land Transport Authority'
+    Email: 'Datamall@LTA.gov.sg'
+Sources:
+  - 'Land Transport Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Monthly'
+Coverage: '2014-01-01 to 2018-02-28'
+Last Updated: '2018-03-14T03:20:36.011703'
+Resources:
+  -
+    Identifier: 'c54f334b-9a46-4870-a301-da7816edf826'
+    Title: 'Monthly Type and Number of Vehicles Transferred'
+    Url: 'https://storage.data.gov.sg/monthly-transfers-of-vehicle-by-type/resources/monthly-type-and-number-of-vehicles-transferred-2018-03-14T03-20-35Z.csv'
+    Format: 'CSV'
+    Coverage: '2014-01-01 to 2018-02-28'
+    Description:
+      - 'Figures include tax exempted vehicles but exclude all temporary transfers
+        under dealer ownership.'
+      - ''
+      - '(M07)'
+    Last Updated: '2018-03-14T03:20:35.556767'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'type'
+        Title: 'Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'numbers'
+        Title: 'No. of Transfers'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Transfers'

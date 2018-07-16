@@ -1,0 +1,45 @@
+# Metadata for Air Pollutant - Ozone
+---
+Identifier: '98bc64dc-d818-4c83-a962-ad39f43fb3e4'
+Name: 'air-pollutant-ozone'
+Title: 'Air Pollutant - Ozone'
+Description: 'Air Pollutant - Ozone'
+Topics:
+  - 'Environment'
+Keywords:
+  - 'NEA'
+  - 'Ozone'
+  - 'Pollution'
+Publisher:
+  Name: 'National Environment Agency'
+  Admin 1:
+    Name: 'Woon Jing Shing'
+    Department: 'Policy Planning Division \ Policy Department'
+    Email: 'woon_jing_shing@nea.gov.sg'
+Sources:
+  - 'National Environment Agency'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '1999-01-01 to 2014-12-31'
+Last Updated: '2017-04-21T07:31:18.065236'
+Resources:
+  -
+    Identifier: '1bdc3a3e-27bd-4b5b-b13a-2e36528fb785'
+    Title: 'Air Pollutant - Ozone'
+    Url: 'https://storage.data.gov.sg/air-pollutant-ozone/resources/air-pollutant-ozone-2016-02-19T07-22-30Z.csv'
+    Format: 'CSV'
+    Coverage: '1999-01-01 to 2014-12-31'
+    Last Updated: '2016-02-19T07:22:30.032582'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'ozone_4th_maximum_8hourly_mean'
+        Title: 'Ozone (4th Maximum 8-Hourly Mean)'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Microgram Per Cubic Metre'

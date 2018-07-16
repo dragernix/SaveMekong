@@ -1,0 +1,51 @@
+# Metadata for Air Pollutant - Lead
+---
+Identifier: 'c178cb62-7e0d-4b53-ba22-28f9adbf7c7d'
+Name: 'air-polluant-lead'
+Title: 'Air Pollutant - Lead'
+Description: 'Air Pollutant - Lead'
+Topics:
+  - 'Environment'
+Keywords:
+  - 'Lead'
+  - 'NEA'
+  - 'Pollution'
+Publisher:
+  Name: 'National Environment Agency'
+  Admin 1:
+    Name: 'Woon Jing Shing'
+    Department: 'RSD'
+    Email: 'woon_jing_shing@nea.gov.sg'
+  Admin 2:
+    Name: 'Irene'
+    Department: 'ITD'
+    Email: 'Irene_tan@nea.gov.sg'
+Sources:
+  - 'National Environment Agency'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2006-01-01 to 2014-12-31'
+Last Updated: '2017-04-21T07:42:05.318539'
+Resources:
+  -
+    Identifier: '2b14a0cf-203c-4b0f-8432-62be3971f9b6'
+    Title: 'Air Polluant - Lead'
+    Url: 'https://storage.data.gov.sg/air-polluant-lead/resources/air-polluant-lead-2016-06-22T09-35-47Z.csv'
+    Format: 'CSV'
+    Coverage: '2006-01-01 to 2014-12-31'
+    Last Updated: '2016-06-22T09:35:47.823756'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+        Description: 'Year'
+      -
+        Name: 'air_pollutant_lead_mean'
+        Title: 'Air Pollutant Lead (Mean)'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Microgram Per Cubic Metre'
+        Description: 'Annual mean value'

@@ -1,0 +1,52 @@
+# Metadata for Air Pollutant - Particulate Matter PM10
+---
+Identifier: 'df04538e-7f82-4a15-a01b-a1b60aebd5d1'
+Name: 'air-pollutant-particulate-matter-pm10'
+Title: 'Air Pollutant - Particulate Matter PM10'
+Description:
+  - 'Air Pollutant - Particulate Matter PM10'
+  - 'Please note that the figures from 2011 onwards are based on the 99th percentile
+    of the WHO standards.'
+Topics:
+  - 'Environment'
+Keywords:
+  - 'NEA'
+  - 'PM10'
+  - 'Pollution'
+Publisher:
+  Name: 'National Environment Agency'
+  Admin 1:
+    Name: 'Woon Jing Shing'
+    Department: 'Policy Planning Division \ Policy Department'
+    Email: 'woon_jing_shing@nea.gov.sg'
+  Admin 2:
+    Name: 'Irene Tan'
+    Department: 'ITD'
+    Email: 'Irene_Tan@nea.gov.sg'
+Sources:
+  - 'National Environment Agency'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '1999-01-01 to 2014-12-31'
+Last Updated: '2017-04-21T07:30:47.455576'
+Resources:
+  -
+    Identifier: '1a333dd6-c2e9-43a4-9b98-4d9c2705dc23'
+    Title: 'Air Pollutant - Particulate Matter PM10'
+    Url: 'https://storage.data.gov.sg/air-pollutant-particulate-matter-pm10/resources/air-pollutant-particulate-matter-pm10-2016-02-19T07-58-40Z.csv'
+    Format: 'CSV'
+    Coverage: '1999-01-01 to 2014-12-31'
+    Last Updated: '2016-02-19T07:58:40.947426'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'pm10_2nd_maximum_24hourly_mean'
+        Title: 'PM10 (2nd Maximum 24-Hour Mean)'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Microgram Per Cubic Metre'

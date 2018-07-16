@@ -1,0 +1,45 @@
+# Metadata for Air Pollutant - Carbon Monoxide
+---
+Identifier: '5e55b076-5d48-4c1f-b9be-bd742504bb54'
+Name: 'air-pollutant-carbon-monoxide'
+Title: 'Air Pollutant - Carbon Monoxide'
+Description: 'Air Pollutant - Carbon Monoxide'
+Topics:
+  - 'Environment'
+Keywords:
+  - 'Carbon Dioxide'
+  - 'NEA'
+  - 'Pollution'
+Publisher:
+  Name: 'National Environment Agency'
+  Admin 1:
+    Name: 'Woon Jing Shing'
+    Department: 'Policy Planning Division \ Policy Department'
+    Email: 'woon_jing_shing@nea.gov.sg'
+Sources:
+  - 'National Environment Agency'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '1999-01-01 to 2014-12-31'
+Last Updated: '2017-04-21T07:39:59.150399'
+Resources:
+  -
+    Identifier: '9c28a8fa-9f14-4985-aadc-cff5a49c496a'
+    Title: 'Air Pollutant - Carbon Monoxide  (2nd Maximum 8-Hour Mean)'
+    Url: 'https://storage.data.gov.sg/air-pollutant-carbon-monoxide/resources/air-pollutant-carbon-monoxide-2nd-maximum-8-hour-mean-2016-02-19T07-53-46Z.csv'
+    Format: 'CSV'
+    Coverage: '1999-01-01 to 2014-12-31'
+    Last Updated: '2016-02-19T07:53:46.289908'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'carbon_monoxide_2nd_maximum_8hourly_mean'
+        Title: 'Carbon Monoxide (2nd Maximum 8-Hour Mean)'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Milligram Per Cubic Metre'
